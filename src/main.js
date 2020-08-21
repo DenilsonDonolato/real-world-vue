@@ -18,9 +18,7 @@ requireComponent.keys().forEach(fileName => {
     camelCase(fileName.replace(/^\.\/(.*)\.\w+$/, '$1'))
   )
 
-  console.log('file:' + fileName)
-  console.log('name:' + componentName)
-  Vue.component(componentName, componentConfig.defaul || componentConfig)
+  Vue.component(componentName, componentConfig.default || componentConfig)
 })
 
 Vue.config.productionTip = false
