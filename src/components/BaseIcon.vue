@@ -30,7 +30,7 @@ export default {
   font-size: 1rem;
   font-weight: 600;
 }
-icon {
+.icon {
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
